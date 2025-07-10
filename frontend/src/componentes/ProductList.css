@@ -1,0 +1,48 @@
+.seccion-producto{
+    background: linear-gradient(to bottom right , #f9f9f9 , #e0f7fa);
+    padding: 40px;
+    min-height: 100vh;
+    
+}
+
+
+.sub {
+    font-size: 2rem;
+    margin: 20px;
+    text-align: center;
+    color: #2c3e50;
+}
+ul.box {
+    list-style-type: none;
+}
+
+
+.box{
+    display: grid;
+    grid-template-columns: repeat (auto-fill , minmax (220px,1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px  solid #ccc;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0 , 0,0.1);
+    transition: all 0.2 ease;
+
+}
+
+.card h1{
+    margin: 0;
+    color: #333;
+
+}
+
+.card p {
+    margin: 8px 0 0 ;
+    font-weight: bold;
+    color: #2b9348;
+
+}
