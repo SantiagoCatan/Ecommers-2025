@@ -14,19 +14,17 @@ function Menu({ onProductClick }) {
       action: onProductClick
     },
     {
-      id:3,
+    id:3,
     name: "Carrito",
     link: '#Carrito',
     }
-  ]; 
-  
+  ];  
 function MenuClick(link , action){
     return(e)=>{e.preventDefault();
     if(action) action();
     document.querySelector(link);     
     };
 }
-
     return(
      <nav className = 'navbar'>
             <ul className = 'links'>
